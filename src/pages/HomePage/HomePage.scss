@@ -54,19 +54,26 @@
 
       .left-text {
         color: COLORS.$DARK_GREEN;
-        max-width: 624px;
+        max-width: 800px;
 
         @include BREAKPOINTS.NOT_MOBILE {
           padding-left: 48px;
+          font-size: 20px;
         }
 
         .heading {
           display: flex;
           text-align: center;
+          font-size: 16px;
 
           @include BREAKPOINTS.NOT_MOBILE {
             padding-left: 40px;
             text-align: start;
+            font-size: 32px;
+          }
+
+          .title {
+            display: flex;
           }
 
           .arrow-wrapper {
@@ -77,6 +84,8 @@
 
             @include BREAKPOINTS.NOT_MOBILE {
               padding-left: 24px;
+              height: 32px;
+              width: 28px;
             }
           }
         }
