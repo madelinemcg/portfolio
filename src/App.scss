@@ -1,0 +1,6 @@
+@use "./assets/styles/colors.module.scss" as COLORS;
+
+.App {
+  background-color: COLORS.$LIGHT_BEIGE;
+  height: 100%;
+}

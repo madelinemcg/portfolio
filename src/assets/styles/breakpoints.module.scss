@@ -1,0 +1,31 @@
+$sm: 766px;
+$md: 1148px;
+
+@mixin DESKTOP {
+  @media screen and (min-width: $md) {
+    @content;
+  }
+}
+
+@mixin TABLET {
+  @media screen and (min-width: $sm) and (max-width: $md) {
+    @content;
+  }
+}
+
+@mixin MOBILE {
+  @media screen and (max-width: calc($sm - 1px)) {
+    @content;
+  }
+}
+
+@mixin NOT_MOBILE {
+  @media screen and (min-width: $sm) {
+    @content;
+  }
+}
+
+:export {
+  sm: $sm;
+  md: $md;
+}

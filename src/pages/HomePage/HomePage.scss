@@ -1,0 +1,94 @@
+@use "../../assets/styles/colors.module.scss" as COLORS;
+@use "../../assets/styles/breakpoints.module.scss" as BREAKPOINTS;
+
+.page {
+  height: 100%;
+  width: 100%;
+  background-color: COLORS.$LIGHT_BEIGE;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+
+  .background,
+  .content {
+    grid-column-start: 1;
+    grid-row-start: 1;
+  }
+
+  .background {
+    z-index: 1;
+    background-color: COLORS.$BEIGE;
+    margin: 40px 0 0 20%;
+    height: 100%;
+    width: 100%;
+  }
+
+  .content {
+    z-index: 2;
+
+    @include BREAKPOINTS.NOT_MOBILE {
+      padding: 24px;
+    }
+
+    .profile {
+      padding: 40px 2%;
+      display: flex;
+      flex-direction: column;
+      height: 400px;
+
+      @include BREAKPOINTS.NOT_MOBILE {
+        flex-direction: row;
+      }
+
+      .img-wrapper {
+        display: flex;
+        align-self: center;
+        height: 116px;
+        width: 162px;
+
+        @include BREAKPOINTS.NOT_MOBILE {
+          padding-left: 52px;
+          align-self: flex-start;
+        }
+      }
+
+      .left-text {
+        color: COLORS.$DARK_GREEN;
+        max-width: 624px;
+
+        @include BREAKPOINTS.NOT_MOBILE {
+          padding-left: 48px;
+        }
+
+        .heading {
+          display: flex;
+          text-align: center;
+
+          @include BREAKPOINTS.NOT_MOBILE {
+            padding-left: 40px;
+            text-align: start;
+          }
+
+          .arrow-wrapper {
+            display: flex;
+            align-self: center;
+            height: 24px;
+            width: 20px;
+
+            @include BREAKPOINTS.NOT_MOBILE {
+              padding-left: 24px;
+            }
+          }
+        }
+
+        .sub-text {
+          padding-top: 24px;
+        }
+      }
+    }
+
+    .experience {
+      height: 1000px;
+    }
+  }
+}

@@ -1,0 +1,26 @@
+html,
+body,
+#root,
+.App {
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: clip;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  //   "Roboto", "Oxygen", "Helvetica Neue", -apple-system,
+  //   BlinkMacSystemFont, "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.bold {
+  stroke: 0.5px;
+}

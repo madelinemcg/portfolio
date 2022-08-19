@@ -1,0 +1,33 @@
+@use "../../assets/styles/colors.module.scss" as COLORS;
+@use "../../assets//styles//breakpoints.module.scss" as BREAKPOINTS;
+
+.footer-wrapper {
+  background-color: COLORS.$LIGHT_BEIGE;
+  display: flex;
+  height: 80px;
+  width: 99%;
+  z-index: 5;
+  position: fixed;
+  bottom: 0;
+
+  .img-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100%;
+    gap: 32px;
+
+    @include BREAKPOINTS.NOT_MOBILE {
+      justify-content: space-between;
+      min-width: 242px;
+      padding: 0 60px;
+      gap: 0;
+    }
+
+    img {
+      cursor: pointer;
+      height: 36px;
+      width: 36px;
+    }
+  }
+}

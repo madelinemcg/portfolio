@@ -1,0 +1,79 @@
+@use "../../assets/styles/colors.module.scss" as COLORS;
+@use "../../assets/styles/breakpoints.module.scss" as BREAKPOINTS;
+
+.page {
+  height: 100%;
+  width: 100%;
+  background-color: COLORS.$LIGHT_BEIGE;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+
+  .background,
+  .content {
+    grid-column-start: 1;
+    grid-row-start: 1;
+  }
+
+  .background {
+    z-index: 1;
+    background-color: COLORS.$BEIGE;
+    margin-top: 40px;
+    margin-left: 0;
+    height: 100%;
+    width: 100%;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    padding: 60px 52px;
+    gap: 52px;
+
+    .experience {
+      display: flex;
+      flex-direction: column;
+      max-height: 600px;
+
+      @include BREAKPOINTS.NOT_MOBILE {
+        max-height: 400px;
+        padding-left: 24px;
+      }
+
+      .small-line {
+        background-color: COLORS.$RED;
+        margin-left: 24px;
+        height: 2px;
+        width: 32px;
+      }
+
+      .description {
+        padding: 12px 32px;
+        max-width: 70%;
+      }
+
+      .list-container {
+        padding: 24px 0;
+        display: flex;
+        flex-direction: row;
+        max-width: 60%;
+
+        .list {
+          display: flex;
+          flex-direction: column;
+          text-align: center;
+          padding: 12px 24px;
+        }
+
+        .vert-line {
+          background-color: COLORS.$RED;
+          align-self: center;
+          height: 80%;
+          margin-top: 32px;
+          min-width: 2px;
+          max-width: 2px;
+        }
+      }
+    }
+  }
+}
