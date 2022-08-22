@@ -7,7 +7,7 @@ export const COPY = {
         name: "experience",
         route: "https://madeline-mcginnis.netlify.app/experience",
       },
-      { name: "resume", route: "" },
+      { name: "projects", route: "https://github.com/madelinemcg" },
     ],
   },
   PROFILE: {
@@ -21,7 +21,7 @@ export const COPY = {
     BI: {
       title: "BI Worldwide - 2022",
       description:
-        "This was an amazing opportunity to internship in the Custom Technology Solutions Group. I was able to work on a team with 3-5 software engineers that provided mentorship and guidance on learning web development. Our team developed an employee incentives web application for a large telecommunications company.",
+        "This was an amazing opportunity to internship in the Custom Technology Solutions Group. I was able to work on a team with 3-5 software engineers that provided mentorship and guidance on learning web development. Our team developed an employee incentives web application for a large telecommunications company. Completed over 40 issues in GitLab.",
       tools: "Git, CSS, Typescript, React, Apollo GraphQL", // HTML, Kotlin, Java, SQL
       practices:
         "Frontend Web Development, Mobile-first Design, Version Control, Agile", // Schema-first Development, Backend Web Development

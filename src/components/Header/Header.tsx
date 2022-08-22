@@ -25,7 +25,7 @@ export const Header: React.FC = () => {
         </div>
         <div className="button-wrapper">
           <Button href={"https://github.com/madelinemcg"} className="button">
-            Projects
+            Resume
           </Button>
         </div>
         <div className="hori-line" />

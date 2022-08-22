@@ -28,6 +28,22 @@
       cursor: pointer;
       height: 36px;
       width: 36px;
+      align-self: center;
+    }
+
+    .copy-button {
+      height: 100%;
+    }
+
+    .copy-text {
+      display: flex;
+      justify-content: flex-end;
+      margin: 0;
+      height: 8px;
+      padding-top: 12px;
+      text-align: center;
+      font-size: 10px;
+      color: COLORS.$DARK_GREEN;
     }
   }
 }

@@ -18,9 +18,13 @@
   .background {
     z-index: 1;
     background-color: COLORS.$BEIGE;
-    margin: 40px 0 0 20%;
+    margin: 40px 0 0 0 !important;
     height: 100%;
     width: 100%;
+
+    @include BREAKPOINTS.NOT_MOBILE {
+      margin: 40px 0 0 180px !important;
+    }
   }
 
   .content {
