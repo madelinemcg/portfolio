@@ -18,12 +18,13 @@
   .background {
     z-index: 1;
     background-color: COLORS.$BEIGE;
-    margin: 40px 0 0 0 !important;
+    margin: 40px 0 0 0;
     height: 100%;
     width: 100%;
 
     @include BREAKPOINTS.NOT_MOBILE {
-      margin: 40px 0 0 180px !important;
+      margin: 48px 0 0 180px;
+      margin-left: 180px;
     }
   }
 
@@ -44,7 +45,7 @@
         flex-direction: row;
       }
 
-      .img-wrapper {
+      .profile-wrapper {
         display: flex;
         align-self: center;
         height: 116px;
@@ -100,8 +101,24 @@
       }
     }
 
-    .experience {
-      height: 1000px;
+    .button-wrapper {
+      display: flex;
+      justify-content: center;
+
+      .button {
+        display: flex;
+        background-color: COLORS.$YELLOW;
+        color: COLORS.$DARK_GREEN;
+        text-transform: none;
+        border-radius: 40px;
+        font-size: 20px;
+        height: 48px;
+        width: 192px;
+
+        @include BREAKPOINTS.NOT_MOBILE {
+          display: none;
+        }
+      }
     }
   }
 }

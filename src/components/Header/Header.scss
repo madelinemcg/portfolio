@@ -50,16 +50,16 @@
 
       .button {
         display: none;
+        background-color: COLORS.$YELLOW;
+        color: COLORS.$DARK_GREEN;
+        text-transform: none;
+        border-radius: 40px;
+        font-size: 20px;
+        height: 48px;
+        width: 192px;
 
         @include BREAKPOINTS.NOT_MOBILE {
           display: flex;
-          background-color: COLORS.$YELLOW;
-          color: COLORS.$DARK_GREEN;
-          text-transform: none;
-          border-radius: 40px;
-          font-size: 20px;
-          height: 48px;
-          width: 192px;
         }
       }
 
