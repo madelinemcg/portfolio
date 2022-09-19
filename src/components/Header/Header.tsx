@@ -24,7 +24,7 @@ export const Header: React.FC = () => {
           ))}
         </div>
         <div className="button-wrapper">
-          <Button href={"https://github.com/madelinemcg"} className="button">
+          <Button href={"https://docs.google.com/document/d/12ja6Ha8Th5YbKBQyWwt2QYPfNq0TCUCJK2cwMSrv7ZI/edit?usp=sharing"} className="button">
             Resume
           </Button>
         </div>
