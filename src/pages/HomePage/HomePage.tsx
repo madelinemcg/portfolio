@@ -31,6 +31,16 @@ export const HomePage: React.FC = () => {
             <div>{COPY.PROFILE.DESCRIPTION}</div>
             <div className="sub-text">{COPY.PROFILE.SUB_DESCRIPTION}</div>
           </div>
+          <div className="left-text">
+            <div className="heading">
+              <h2 className="title">{COPY.EDUCATION.HEADING}</h2>
+            </div>
+            <div>{COPY.EDUCATION.UMN.DESCRIPTION}</div>
+            <div className="sub-text">{COPY.EDUCATION.UMN.DESCRIPTION}</div>
+            <div></div>
+            <div>{COPY.EDUCATION.NORM.DESCRIPTION}</div>
+            <div className="sub-text">{COPY.EDUCATION.NORM.DESCRIPTION}</div>
+          </div>
         </div>
         <div className="button-wrapper">
           <Button href={""} className="button">

@@ -13,9 +13,20 @@ export const COPY = {
   PROFILE: {
     HEADING: "Hello! I'm Madeline McGinnis",
     DESCRIPTION:
-      "I am an undergraduate student at the University of Minnesota's College of Science and Engineering, majoring in computer science. I have the most experience in frontend web development and have a passion for minimalistic design.",
+      "I am an undergratuate student majoring in Computer Science. I have a passion for all things visual and creative within the programming field. I have experience in both frontend and backend web development.",
     SUB_DESCRIPTION:
-      "I also enjoy competitive figure skating, gaming, and baking macarons.",
+      "I also enjoy figure skating, gaming, and baking in my free time. :)",
+  },
+  EDUCATION: {
+    HEADING: "Education",
+    UMN: {
+      HEADING: "University of Minnesota - Twin Cities",
+      DESCRIPTION: "College of Science and Engineering, BS - Computer Science - Expected Fall 2023"
+    },
+    NORM: {
+      HEADING: "Normandale Community College",
+      DESCRIPTION: "PSEO Student - MNTC - GPA 4.0"
+    },
   },
   EXPERIENCE: {
     BESTBUY: {
