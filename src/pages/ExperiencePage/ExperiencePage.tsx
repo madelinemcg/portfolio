@@ -2,7 +2,7 @@ import { COPY } from "../../assets/copy/copy";
 import "./ExperiencePage.scss";
 
 export const ExperiencePage: React.FC = () => {
-  const experienceList = [COPY.EXPERIENCE.BI, COPY.EXPERIENCE.UMN];
+  const experienceList = [COPY.EXPERIENCE.BESTBUY, COPY.EXPERIENCE.UMN2, COPY.EXPERIENCE.BI, COPY.EXPERIENCE.UMN];
 
   return (
     <div className="page">

@@ -18,6 +18,20 @@ export const COPY = {
       "I also enjoy competitive figure skating, gaming, and baking macarons.",
   },
   EXPERIENCE: {
+    BESTBUY: {
+      title: "Best Buy - 2023",
+      description:
+        "Internship opportunity in the Commerce Services platform for bestbuy.com. Maintained a REST API with Spring Boot framework and leveraged cloud services.",
+      tools: "Groovy, Spring Boot, Jenkins, Splunk",
+      practices: "Agile-Scrum, Backend Web Development",
+    },
+    UMN2: {
+      title: "University of Minnesota - 2023",
+      description:
+        "Independent Study project creating a fullstack web application to host interactive MRI radiograquency graphs. Flask framework for implementing a REST API, React.js for frontend, github for source control.",
+      tools: "Python, Javascript, HTML, CSS",
+      practices: "Version control, Project Management, Fullstack Web Development",
+    },
     BI: {
       title: "BI Worldwide - 2022",
       description:
