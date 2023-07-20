@@ -32,7 +32,7 @@ export const HomePage: React.FC = () => {
             <div className="sub-text">{COPY.PROFILE.SUB_DESCRIPTION}</div>
             <div className="space"></div>
             <div className="heading">
-              <div className="title">{COPY.EDUCATION.HEADING}</div>
+              <h3 className="title">{COPY.EDUCATION.HEADING}</h3>
             </div>
             <div>{COPY.EDUCATION.UMN.HEADING}</div>
             <div className="small-text">{COPY.EDUCATION.UMN.DESCRIPTION}</div>
