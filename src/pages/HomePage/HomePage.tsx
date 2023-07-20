@@ -30,7 +30,6 @@ export const HomePage: React.FC = () => {
             </div>
             <div>{COPY.PROFILE.DESCRIPTION}</div>
             <div className="sub-text">{COPY.PROFILE.SUB_DESCRIPTION}</div>
-            <div className="space"></div>
             <div className="heading">
               <h2 className="title">{COPY.EDUCATION.HEADING}</h2>
             </div>

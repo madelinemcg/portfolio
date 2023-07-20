@@ -21,7 +21,7 @@ export const COPY = {
     HEADING: "Education",
     UMN: {
       HEADING: "University of Minnesota - Twin Cities",
-      DESCRIPTION: "College of Science and Engineering, BS - Computer Science - Expected Fall 2023"
+      DESCRIPTION: "College of Science and Engineering- BS Computer Science - Expected Fall 2023"
     },
     NORM: {
       HEADING: "Normandale Community College",
