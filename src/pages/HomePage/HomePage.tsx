@@ -32,12 +32,12 @@ export const HomePage: React.FC = () => {
             <div className="sub-text">{COPY.PROFILE.SUB_DESCRIPTION}</div>
             <div className="heading">
               <h2 className="title">{COPY.EDUCATION.HEADING}</h2>
-              <div className="sub-text">{COPY.EDUCATION.UMN.HEADING}</div>
-              <div className="sub-text">{COPY.EDUCATION.UMN.DESCRIPTION}</div>
-              <div></div>
-              <div className="sub-text">{COPY.EDUCATION.NORM.HEADING}</div>
-              <div className="sub-text">{COPY.EDUCATION.NORM.DESCRIPTION}</div>
             </div>
+            <div className="sub-text">{COPY.EDUCATION.UMN.HEADING}</div>
+            <div className="sub-text">{COPY.EDUCATION.UMN.DESCRIPTION}</div>
+            <div></div>
+            <div className="sub-text">{COPY.EDUCATION.NORM.HEADING}</div>
+            <div className="sub-text">{COPY.EDUCATION.NORM.DESCRIPTION}</div>
           </div>
         </div>
         <div className="button-wrapper">
